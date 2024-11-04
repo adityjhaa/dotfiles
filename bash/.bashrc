@@ -32,7 +32,7 @@ PS1='\[[38;5;75m\][\u@\h \[[0m\]\W\[[38;5;75m\]]\[[0m\]\$ '
 # go path
 export PATH="$HOME/.golang/bin:$PATH"
 
-fastfetch --kitty-direct ~/Downloads/coding.png
+# fastfetch
 
 # Frequently used
 alias l='ls'
