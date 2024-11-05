@@ -6,6 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 PATH="$HOME/.golang/bin:$PATH"
+export GOPATH=$HOME/.golang
 
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -68,6 +69,7 @@ alias ls='ls --color'
 alias la='ls -a'
 alias ll='ls -l'
 alias c='clear'
+alias cat='bat --paging=never'
 
 alias open='xdg-open'
 alias copy='xclip -selection clipboard'
