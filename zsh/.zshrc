@@ -74,6 +74,9 @@ alias cat='bat --paging=never'
 alias open='xdg-open'
 alias copy='xclip -selection clipboard'
 
+# more aliases
+source .alias
+
 eval $(thefuck --alias)
 
 # Shell integrations
