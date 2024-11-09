@@ -63,21 +63,10 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-# Useful aliases 
 alias re='source ~/.zshrc'
-alias ls='ls --color'
-alias la='ls -a'
-alias ll='ls -l'
-alias c='clear'
-alias cat='bat --paging=never'
-
-alias open='xdg-open'
-alias copy='xclip -selection clipboard'
 
 # more aliases
-source .alias
-
-eval $(thefuck --alias)
+source ~/.alias
 
 # Shell integrations
 eval "$(fzf --zsh)"
