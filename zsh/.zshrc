@@ -72,4 +72,4 @@ source ~/.alias.zsh
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-export EDITOR='hx'
+export EDITOR='helix'
