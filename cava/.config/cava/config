@@ -1,7 +1,7 @@
 [general]
 autosens = 1
-bar_width = 8
-bar_spacing = 3
+bar_width = 6
+bar_spacing = 2
 
 [input]
 method = pulse
