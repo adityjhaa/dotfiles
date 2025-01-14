@@ -66,10 +66,12 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 alias re='source ~/.zshrc'
 
-# more aliases
+# additional files
 source ~/.alias.zsh
+source ~/.paths.zsh
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 export EDITOR='helix'
+
