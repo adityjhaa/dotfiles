@@ -11,7 +11,7 @@
 
 window {
     color: #D3C6AA;
-    background-color: rgba(45, 53, 59, 0.95);
+    background-color: rgba(45, 53, 59, 1.0);
     font-family: 'Hack Nerd Font', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -50,20 +50,6 @@ button:focus, button:active, button:hover {
 }
 #logout:hover, #logout:focus {
     background-image: image(url("./icons/logout-hover.png"));
-}
-
-#suspend {
-    background-image: image(url("./icons/suspend.png"));
-}
-#suspend:hover, #suspend:focus {
-    background-image: image(url("./icons/suspend-hover.png"));
-}
-
-#hibernate {
-    background-image: image(url("./icons/hibernate.png"));
-}
-#hibernate:hover, #hibernate:focus {
-    background-image: image(url("./icons/hibernate-hover.png"));
 }
 
 #shutdown {
